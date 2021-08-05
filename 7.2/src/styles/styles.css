@@ -52,8 +52,13 @@ body {
     font-size: 0;
     list-style: none;
 }
-.forecast-list:hover {
+
+.forecast-list:hover .weather-item {
     opacity: .6;
+}
+
+.forecast-list .weather-item:hover {
+    opacity: 1;
 }
 
 .weather-item {
@@ -65,10 +70,6 @@ body {
     font-size: 24px;
     font-weight: 500;
     padding-top: 15px;
-}
-
-.weather-item:hover {
-    opacity: 1;
 }
 
 .value {
