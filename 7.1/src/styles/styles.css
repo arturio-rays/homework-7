@@ -63,7 +63,7 @@ h1, h2 {
     padding: 23px;
 }
 
-.intro-text {
+.intro-text p {
     color: #898f99;
     text-align: center;
     text-transform: uppercase;
@@ -87,17 +87,15 @@ h1, h2 {
     margin-bottom: 140px;
 }
 
-.card-item:hover .card-image,
-.card-item:hover .card-title,
-.card-item:hover .card-text {
-    background-color: #27b4b6;
-    color: #f7f7f7;
-    fill: #f7f7f7;
-}
-
 .card-link {
     display: block;
     text-decoration: none;
+}
+
+.card-link:hover * {
+    background-color: #27b4b6;
+    color: #f7f7f7;
+    fill: #f7f7f7;
 }
 
 .card-image {
@@ -114,7 +112,7 @@ h1, h2 {
     line-height: 22px;
 }
 
-.card-text {
+.card-text p {
     color: #777;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
