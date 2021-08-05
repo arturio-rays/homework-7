@@ -7,7 +7,6 @@ body {
 
 * {
     box-sizing: border-box;
-    font-size: 0;
     transition: background .1s ease-in;
     margin: 0;
     padding: 0;
@@ -63,7 +62,7 @@ h1, h2 {
     padding: 23px;
 }
 
-.intro-text p {
+.intro-text {
     color: #898f99;
     text-align: center;
     text-transform: uppercase;
@@ -76,6 +75,7 @@ h1, h2 {
 .cards-list {
     list-style: none;
     padding: 0;
+    font-size: 0;
 }
 
 .card-item {
@@ -112,7 +112,7 @@ h1, h2 {
     line-height: 22px;
 }
 
-.card-text p {
+.card-text {
     color: #777;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
